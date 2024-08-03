@@ -22,11 +22,11 @@ public class solve4{
             }
         } 
         else if (operat ==3) {
-            System.out.println("The multiplication between both the numbers are "+num1*num2);
+            System.out.println("The multiplication between both the numbers are "+(num1*num2));
         }
          
         else if (operat ==4) {
-            System.out.println("The division of  both the numbers are "+num1/num2);
+            System.out.println("The division of  both the numbers are "+(num1/num2));
         } 
         else {
             System.out.println("u entered wrong operator");
