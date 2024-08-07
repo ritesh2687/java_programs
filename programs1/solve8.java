@@ -9,11 +9,11 @@ public class solve8 {
         for(int i=0;i<str.length();i++)
         {     
             sec = str.charAt(i);
-            n_str=sec+n_str;
+            n_str=n_str+sec;
     
         }
         System.out.println(n_str);
-        if(n_str.equals(str))
+        if(n_str!=str)
           {
             System.out.println("it's not palinedrome");
           }
