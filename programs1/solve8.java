@@ -13,12 +13,13 @@ public class solve8 {
     
         }
         System.out.println(n_str);
-        if(n_str!=str)
+        if(n_str.equals(str))
           {
-            System.out.println("it's not palinedrome");
+            System.out.println("it's  palinedrome");
           }
           else{
-            System.out.println("it's  palindrome");
+            System.out.println("it's not palindrome");
           }
     }
 }
+
