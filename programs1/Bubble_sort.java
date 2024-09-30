@@ -2,7 +2,7 @@ package java_programs.programs1;
 
 import java.util.Scanner;
 
-public class Bubble_sort {
+public class Bubblesort {
   public static void main(String[] args) {
     Scanner sc =new Scanner(System.in);
     System.out.println("enter the length of the array");
